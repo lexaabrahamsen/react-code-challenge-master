@@ -83,7 +83,7 @@ import EditTractOwnership from './';
 
     render(<EditTractOwnership onChange={v => (result = v)} />);
 
-    const addMineralInterest = screen.getByText('Add Mineral Interest');
+    const addMineralInterest = ('Add Mineral Interest');
     onChange(addMineralInterest);
   });
 
